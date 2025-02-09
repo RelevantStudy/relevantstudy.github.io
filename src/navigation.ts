@@ -57,31 +57,19 @@ export const headerData = {
       ],
     },
     {
-      text: 'Landing',
+      text: 'Hackathons',
       links: [
         {
-          text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
+          text: 'MoFA Search',
+          href: getPermalink('/hackathons/mofa-search'),
         },
         {
-          text: 'Long-form Sales',
-          href: getPermalink('/landing/sales'),
+          text: 'MoFA Voice',
+          href: getPermalink('/hackathons/mofa-voice'),
         },
         {
-          text: 'Click-Through',
-          href: getPermalink('/landing/click-through'),
-        },
-        {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
-        },
-        {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
+          text: 'MoFA ORA',
+          href: getPermalink('/hackathons/mofa-ora'),
         },
       ],
     },
