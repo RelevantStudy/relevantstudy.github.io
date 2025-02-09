@@ -8,9 +8,9 @@ site:
 
 # Default SEO metadata
 metadata:
-  title: Relevant Study, study what is relevant
-    default: AstroWind
-    template: '%s — AstroWind'
+  title:
+    default: Relevant Study
+    template: '%s — Relevant Study'
   description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
   robots:
     index: true
@@ -18,11 +18,12 @@ metadata:
   openGraph:
     site_name: AstroWind
     images:
+
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
         type: website
-    twitter:
+        twitter:
         handle: '@onwidget'
         site: '@onwidget'
         cardType: summary_large_image
