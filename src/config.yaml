@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: RelevantStudy
+  site: 'https://relevantstudy.com'
   base: '/'
   trailingSlash: false
 
@@ -8,8 +8,8 @@ site:
 
 # Default SEO metadata
 metadata:
-  title:
-    default: AstroWind
+  title: Relevant Study, study what is relevant
+    default: Relevant Study LLC
     template: '%s — AstroWind'
   description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
   robots:
@@ -21,11 +21,11 @@ metadata:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
-    type: website
-  twitter:
-    handle: '@onwidget'
-    site: '@onwidget'
-    cardType: summary_large_image
+        type: website
+    twitter:
+        handle: '@onwidget'
+        site: '@onwidget'
+        cardType: summary_large_image
 
 i18n:
   language: en
