@@ -2,7 +2,7 @@
 publishDate: 2025-02-12T00:00:00Z
 title: MoFA 赏金魔法师任务
 excerpt: 如果您有兴趣体验我们的组合式AI开发, 成为我们的赏金魔法师，可以考虑联系我们，做一下魔法师任务。
-image: https://relevantstudy.com/images/magicians.png
+image: https://relevantstudy.github.io/images/magicians.png
 tags:
   - MoFA
   - Magician
