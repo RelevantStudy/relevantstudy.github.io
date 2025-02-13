@@ -85,6 +85,6 @@ MoFA 不仅是一个 智能体框架，更是一个充满创造力和挑战的�
 **💡 立即加入 MoFA，成为 MoFA 魔法师，施展你的智能体魔法！获取赏金**
 
 请联系 @阿图教育微信号 rustedu
-
+![barcode](https://relevantstudy.github.io/images/a-tu-barcode.jpg)
 
 ## 
