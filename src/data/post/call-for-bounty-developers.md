@@ -1,8 +1,7 @@
 ---
-publishDate: 2025-02-12T00:00:00Z
+publishDate: 2025-02-11T00:00:00Z
 title: MoFA 魔法师召集令
 excerpt: 开源智能体框架MoFA，邀你共建未来AI生态！
-image: https://relevantstudy.github.io/images/call-for-participation.jpg
 tags:
   - MoFA
   - Magician
