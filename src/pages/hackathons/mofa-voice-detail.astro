@@ -1,0 +1,342 @@
+---
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Content from '~/components/widgets/Content.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Steps from '~/components/widgets/Steps.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+import Contact from '~/components/widgets/Contact.astro';
+import Brands from '~/components/widgets/Brands.astro';
+
+const metadata = {
+  title: 'MoFA Voice Hackathon',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- Hero Widget ******************* -->
+  <Hero
+    tagline="MoFA Voice Hackathon"
+    title="Unleash the Power of Conversational AI"
+    subtitle="Join the challenge to build groundbreaking voice-powered agents using state-of-the-art AI models and AI Agent Framework."
+    actions={[{ variant: 'primary', target: '_blank', text: 'Register Now', href: 'https://opencamp.com/register' }]}
+    image={{
+      src: '~/assets/images/conversational-ai.png',
+      alt: 'MoFA Voice Hackathon Hero Image',
+    }}
+  />
+
+  <!-- Features2 Widget ************** -->
+  <Features2
+    title = "Key Technologies at the Hackathon"
+    subtitle = "Explore the powerful AI-driven tools and frameworks that will fuel your innovations."
+    columns={2}
+    items={[
+      {
+        title: 'Voice Large Models',
+        description: 'Leverage cutting-edge voice AI models to create intelligent and interactive voice agents.',
+        icon: 'tabler:microphone',
+      },
+      {
+        title: 'MoFA Agent Framework',
+        description: 'Build modular and scalable AI agents with the MoFA Agent Framework.',
+        icon: 'tabler:brain',
+      },
+      {
+        title: 'Real-time Speech Processing',
+        description: 'Process and analyze speech data in real-time for enhanced conversational AI.',
+        icon: 'tabler:brain',
+      },
+      {
+        title: 'Conversational AI',
+        description: 'Develop AI-driven assistants that engage users in natural and dynamic conversations.',
+        icon: 'tabler:message-chatbot',
+      },
+    ]}
+  />
+<Content
+    isReversed
+    items={[
+      {
+        title: 'Exciting Prizes',
+        description: 'Win cash prizes, AI research credits, and exclusive mentorship opportunities with top AI experts.',
+        icon: 'tabler:trophy',
+      },
+      {
+        title: 'Learning Resources',
+        description: 'Access exclusive workshops, tutorials, and API documentation to accelerate your development.',
+        icon: 'tabler:book',
+      },
+      {
+        title: 'Networking Opportunities',
+        description: 'Connect with AI researchers, developers, and industry leaders.',
+        icon: 'tabler:users',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+      alt: 'Prize & Resources',
+    }}
+  />
+
+  <!-- ... Additional existing sections ... -->
+
+  <!-- 1) Timeline with Steps widget ***** -->
+  <Steps
+    title="Hackathon Timeline"
+
+公布晋级复赛名单
+
+
+公布获奖名单，邮寄奖品
+    items={[
+      {
+        title: '2025.02.21',
+        description: '线上报名，填写个人信息并提交相关材料',
+        icon: 'tabler:calendar',
+      },
+      {
+        title: '2025.03.07',
+        description: '报名截止',
+        icon: 'tabler:users',
+      },
+      {
+        title: '2025.03.08',
+        description: '参赛者需在规定的时间内完成指定的Python编辑任务',
+        icon: 'tabler:code',
+      },
+      {
+        title: '2025.03.14',
+        description: '公布晋级复赛名单',
+        icon: 'tabler:presentation',
+      },
+      {
+        title: '2025.03.15',
+        description: '晋级复赛的参赛者需完成更复杂的编程任务',
+        icon: 'tabler:presentation',
+      },
+      {
+        title: '2025.03.30',
+        description: '复赛结束',
+        icon: 'tabler:presentation',
+      },
+      {
+        title: '2025.03.31',
+        description: '作品评审',
+        icon: 'tabler:presentation',
+      },
+      {
+        title: '2025.04.03',
+        description: '公布获奖名单，邮寄奖品',
+        icon: 'tabler:presentation',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1616198814651-e71f960c3180?ixlib=rb-4.0.3&auto=format&fit=crop&w=987&q=80',
+      alt: 'Hackathon Timeline',
+    }}
+  />
+
+  <!-- 2) Hackathon Program Schedule with Content widget -->
+  <Content
+    isReversed
+    tagline="Hackathon Program"
+    title="Daily Schedule"
+    items={[
+      {
+        title: 'Workshop - Moxin Voice Model',
+        description:
+          'Keynote speeches, panel discussions, and quick networking sessions to spark your creativity.',
+      },
+      {
+        title: 'Workshop - MoFA Agent Framework ',
+        description:
+          'Hands-on sessions with industry experts and mentors, covering the latest tech and best practices.',
+      },
+      {
+        title: 'Office Hour',
+        description:
+          'Collaborate with your team to build, test, and refine your project. Mentors available on-call.',
+      },
+      {
+        title: 'Office Hour',
+        description:
+          'Progress check-ins, Q&A, and lightning demos before wrapping up for the day.',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2194&q=80',
+      alt: 'Hackathon Events',
+    }}
+  >
+    <Fragment slot="content">
+      Interactive sessions, hacking, and learning.
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- 3) Judging Criteria with Content widget -->
+  <Content
+    tagline="Judging Criteria"
+    title="How We'll Evaluate Projects"
+    items={[
+      {
+        title: 'Innovation',
+        description: 'Uniqueness and creativity in tackling challenges.',
+      },
+      {
+        title: 'Technical Implementation',
+        description: 'Code quality, complexity, and effective use of technologies.',
+      },
+      {
+        title: 'User Experience',
+        description: 'Clarity, design, and overall usability of the product.',
+      },
+      {
+        title: 'Impact & Feasibility',
+        description: 'Real-world applicability and potential for scaling.',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1611462985358-60d3498e0364?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+      alt: 'Judging Criteria',
+    }}
+  >
+    <Fragment slot="content">
+      Our panel of judges will look for projects that stand out for their impact, creativity, and execution.
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <!-- 4) Submission with Content widget (example) -->
+  <Content
+    id="submission"
+    tagline="Submission Guidelines"
+    title="Ready to Submit?"
+    items={[
+      {
+        title: 'Deadline',
+        description: 'Ensure your final project is submitted before the cutoff time.',
+      },
+      {
+        title: 'Submission Platform',
+        description: 'Upload your code and a short demo video via our official portal.',
+      },
+    ]}
+    image={{
+      src: 'https://images.unsplash.com/photo-1616198846428-679694f425e6?ixlib=rb-4.0.3&auto=format&fit=crop&w=987&q=80',
+      alt: 'Project Submission',
+    }}
+  >
+    <Fragment slot="content">
+      <ul class="list-disc pl-6">
+        <li>Create a short presentation or video to explain your project.</li>
+        <li>Include instructions for testing your application.</li>
+        <li>Be prepared for Q&A during the demo session.</li>
+      </ul>
+    </Fragment>
+  </Content>
+
+  <!-- 5) Join the mailing list (Contact widget) -->
+  <Contact
+    title="Stay Informed"
+    subtitle="Join our mailing list for updates"
+    information="Subscribe to receive notifications about workshops, deadlines, and more."
+    socials={[
+      {
+        icon: 'tabler:brand-twitter',
+        href: 'https://twitter.com/...',
+      },
+      {
+        icon: 'tabler:brand-linkedin',
+        href: 'https://linkedin.com/...',
+      },
+    ]}
+  />
+
+  <!-- 6) For your reference (Features2 widget) -->
+  <Features2
+    tagline="For Your Reference"
+    title="Hackathon Resources"
+    subtitle="Useful articles, documentation, and guidelines to help you excel"
+    items={[
+      {
+        title: 'Official Docs',
+        description: 'Read up on official platform and framework documentation.',
+        icon: 'flat-color-icons:document',
+      },
+      {
+        title: 'Sample Projects',
+        description: 'Explore sample or past winning projects for inspiration.',
+        icon: 'flat-color-icons:gallery',
+      },
+      {
+        title: 'Mentor Office Hours',
+        description: 'Join dedicated sessions for deeper dives into your project challenges.',
+        icon: 'flat-color-icons:approval',
+      },
+      {
+        title: 'Community Channel',
+        description: 'Connect with other participants on Slack for real‑time collaboration.',
+        icon: 'flat-color-icons:advertising',
+      },
+      {
+        title: 'Design Assets',
+        description: 'Leverage hackathon‑branded assets and UI kits for a consistent look.',
+        icon: 'flat-color-icons:template',
+      },
+      {
+        title: 'Technical Support',
+        description: 'Contact our support team for any technical blockers or clarifications.',
+        icon: 'flat-color-icons:template',
+      },
+    ]}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
+
+  <!-- 7) Partners & Sponsors (Brands widget) -->
+  <Brands
+    title="Partners & Sponsors"
+    subtitle="We proudly collaborate with industry leaders"
+    images={[
+      {
+        src: '~/assets/images/brands/LogoSqure.png',
+        alt: 'Relevant Study',
+        href: 'https://relevantstudy.com',
+      },
+      {
+        src: '~/assets/images/brands/LogoSquare.png',
+        alt: 'Brand 2',
+        href: 'https://example.com',
+      },
+      // add as many as needed
+    ]}
+/>
+
+  <!-- CallToAction Widget *********** -->
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Register for Open Camp',
+        href: 'https://opencamp.com/register',
+      },
+    ]}
+    title="Ready to Join the Challenge?"
+    subtitle="Sign up now and start building the next-generation voice-powered AI solutions!"
+  />
+  <BlogLatestPosts
+    title="Find out more content in our RELEVANT Blog"
+    information="We share our thoughts and study results here."
+  />
+</Layout>
