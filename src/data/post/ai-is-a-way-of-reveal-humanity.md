@@ -2,7 +2,7 @@
 publishDate: 2025-02-16T00:00:00Z
 title: AI技术的本质：人性揭蔽
 excerpt: 1953年，海德格尔说，技术的本质是对存在的揭蔽，古代和现代技术的本质揭蔽了自然的真相。那么，大约70年以后，AI技术的本质变了吗？
-image: https://relevantstudy.github.io/images/thinker.png
+image: https://relevantstudy.github.io/images/thinker.jpg
 tags:
   - Thoughts
 ---
