@@ -2,7 +2,7 @@
 publishDate: 2025-02-24T00:00:00Z
 title: MoFA 赏金任务Kick OFF
 excerpt: 现在，我们"软启动"首批“赏金”任务！欢迎 MoFA 魔法师们踊跃参与，共同推动MoFA 开源生态的发展！
-image: https://relevantstudy.github.io/images/bounty-mofa-developer.jpg
+image: https://relevantstudy.github.io/images/bounty-mofa-developer.png
 tags:
   - mofa
 ---
