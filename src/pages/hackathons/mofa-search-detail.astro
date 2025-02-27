@@ -10,16 +10,16 @@ import Contact from '~/components/widgets/Contact.astro';
 import Brands from '~/components/widgets/Brands.astro';
 
 const metadata = {
-  title: 'MoFA Voice Hackathon',
+  title: 'MoFA Search Hackathon',
 };
 ---
 
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
   <Hero
-    tagline="MoFA Voice Hackathon"
-    title="Unleash Humanity with Conversational AI"
-    subtitle="Join the challenge to build groundbreaking voice-powered agents using state-of-the-art AI models and AI Agent Framework."
+    tagline="MoFA Search Hackathon"
+    title="AI powered Search and Beyond"
+    subtitle="穿透信息盲区，重新定义搜索"
     actions={[{ variant: 'primary', target: '_blank', text: 'Register Now', href: 'https://opencamp.com/register' }]}
     image={{
       src: '~/assets/images/conversational-ai.png',
@@ -34,22 +34,22 @@ const metadata = {
     columns={2}
     items={[
       {
-        title: 'Moxin Voice Model',
+        title: ' Connector Agents',
         description: 'Leverage cutting-edge voice AI models to create intelligent and interactive voice agents.',
         icon: 'tabler:microphone',
       },
       {
-        title: 'MoFA Agent Framework',
+        title: ' Extractor Agents',
         description: 'Build modular and scalable AI agents with the MoFA Agent Framework.',
         icon: 'tabler:brain',
       },
       {
-        title: 'Real-time Speech Processing',
+        title: 'Query Dispatching Agents',
         description: 'Process and analyze speech data in real-time for enhanced conversational AI.',
         icon: 'tabler:brain',
       },
       {
-        title: 'Conversational AI',
+        title: 'Query Understanding Agents',
         description: 'Develop AI-driven assistants that engage users in natural and dynamic conversations.',
         icon: 'tabler:message-chatbot',
       },
@@ -87,38 +87,38 @@ const metadata = {
     title="Hackathon Timeline"
     items={[
       {
-        title: '2025.02.21',
+        title: '2025.02.28',
         description: '线上报名，填写个人信息并提交相关材料',
         icon: 'tabler:calendar',
       },
       {
-        title: '2025.03.07',
+        title: '20:00 2025.03.14',
+        description: '赛题公布',
+        icon: 'tabler:presentation',
+      },
+      {
+        title: '20:00 ~ 21:30 2025.03.14',
+        description: '线上讲座',
+        icon: 'tabler:code',
+      },
+      {
+        title: '23:59:59 2025.03.14',
         description: '报名截止',
         icon: 'tabler:users',
       },
       {
-        title: '2025.03.08',
-        description: '参赛者需在规定的时间内完成指定的Python编辑任务',
-        icon: 'tabler:code',
-      },
-      {
-        title: '2025.03.14',
-        description: '公布晋级复赛名单',
+        title: '2025.03.15 ～ 2025.03.30',
+        description: '比赛进行',
         icon: 'tabler:presentation',
       },
       {
-        title: '2025.03.15',
-        description: '晋级复赛的参赛者需完成更复杂的编程任务',
-        icon: 'tabler:presentation',
-      },
-      {
-        title: '2025.03.30',
-        description: '复赛结束',
+        title: '23:59:59 2025.03.30',
+        description: '比赛结束',
         icon: 'tabler:presentation',
       },
       {
         title: '2025.03.31',
-        description: '作品评审',
+        description: '作品评审开始',
         icon: 'tabler:presentation',
       },
       {
@@ -140,12 +140,12 @@ const metadata = {
     title="Hackathon Events"
     items={[
       {
-        title: 'Workshop - Moxin Voice Model',
+        title: 'MoFA Academy - MoFA Framework, Quick Start',
         description:
           'Keynote speeches, panel discussions, and quick networking sessions to spark your creativity.',
       },
       {
-        title: 'Workshop - MoFA Agent Framework ',
+        title: 'MoFA Academy - MoFA Search Agent Development',
         description:
           'Hands-on sessions with industry experts and mentors, covering the latest tech and best practices.',
       },
