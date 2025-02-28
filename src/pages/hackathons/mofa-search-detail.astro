@@ -132,7 +132,7 @@ const metadata = {
         description: '赛题公布',
         icon: 'tabler:presentation',
       },
-      {
+      { 
         title: '2025.03.14 20:00 ~ 21:30',
         description: '线上讲座',
         icon: 'tabler:users-group',
@@ -286,7 +286,7 @@ const metadata = {
   <Features2
     tagline="供您参考"
     title="黑客松的相关资源"
-    subtitle="一些有用的文章、文档和指南，帮助你脱颖而出"
+    subtitle="一些有用的文章、文档和信息，帮助你脱颖而出"
     items={[
       {
         title: 'MoFA 智能体框架',
@@ -299,18 +299,18 @@ const metadata = {
         icon: 'flat-color-icons:gallery',
       },
       {
-        title: 'Mentor Office Hours',
-        description: 'Join dedicated sessions for deeper dives into your project challenges.',
+        title: 'Office Hours',
+        description: '我们将安排至少每周一次的答疑.',
         icon: 'flat-color-icons:approval',
       },
       {
         title: 'LLM APIs',
-        description: 'Leverage hackathon‑branded assets and UI kits for a consistent look.',
+        description: '我们为参赛者提供大语言模型API算力劵',
         icon: 'flat-color-icons:template',
       },
       {
         title: 'Technical Support',
-        description: 'Contact our support team for any technical blockers or clarifications.',
+        description: '联系MoFA核心开发团队.',
         icon: 'flat-color-icons:template',
       },
       {
@@ -325,5 +325,21 @@ const metadata = {
     </Fragment>
   </Features2>
 
- 
+   <!-- CallToAction Widget *********** -->
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: '报名',
+        href: 'https://opencamp.cn/gosim/camp/MoFA2025',
+      },
+    ]}
+    title="准备好了吗"
+    subtitle="就来报名吧!"
+  />
+  <BlogLatestPosts
+    title="关于MoFA的Blogs"
+    information="We share our thoughts and study results here."
+  />
+
 </Layout>
