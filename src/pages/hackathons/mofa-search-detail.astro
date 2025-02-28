@@ -42,9 +42,6 @@ const metadata = {
       alt: 'Colorful Image',
     }}
   >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">MoFA Search的意义</h3> 
-    </Fragment>
 
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
@@ -53,8 +50,8 @@ const metadata = {
 
   <!-- Features2 Widget ************** -->
   <Features2
-    title = "您可以构建"
-    subtitle = "施展魔法，构建搜索超级智能体"
+    title = "欢迎您来施展魔法"
+    subtitle = "构建多种多样的智能体，组成AI搜索引擎"
     columns={2}
     items={[
       {
@@ -85,6 +82,11 @@ const metadata = {
       {
         title: ' Computer Use 智能体',
         description: '帮助用户操作电脑/浏览器网站，发送搜索查询，获得搜索结果的工具型智能体',
+        icon: 'tabler:user-cog',
+      },
+      {
+        title: ' ... 智能体',
+        description: '发挥您的想象和才能，创新、突破，赋予搜索新的含义',
         icon: 'tabler:user-cog',
       },
     ]}
@@ -118,12 +120,12 @@ const metadata = {
 
   <!-- 1) Timeline with Steps widget ***** -->
   <Steps
-    title="Hackathon Timeline"
+    title="黑客松日程"
     items={[
       {
         title: '2025.02.28',
         description: '线上报名，填写个人信息并提交相关材料',
-        icon: 'tabler:calendar',
+        icon: 'tabler:users',
       },
       {
         title: '2025.03.14 20:00',
@@ -133,32 +135,32 @@ const metadata = {
       {
         title: '2025.03.14 20:00 ~ 21:30',
         description: '线上讲座',
-        icon: 'tabler:code',
+        icon: 'tabler:users-group',
       },
       {
         title: '2025.03.14 23:59:59',
         description: '报名截止',
-        icon: 'tabler:users',
+        icon: 'tabler:user-off',
       },
       {
         title: '2025.03.15 ～ 2025.03.30',
         description: '比赛进行',
-        icon: 'tabler:presentation',
+        icon: 'tabler:run',
       },
       {
         title: '2025.03.30 23:59:59',
         description: '比赛结束',
-        icon: 'tabler:presentation',
+        icon: 'tabler:notes-off',
       },
       {
         title: '2025.03.31',
         description: '作品评审开始',
-        icon: 'tabler:presentation',
+        icon: 'tabler:adjustments',
       },
       {
         title: '2025.04.03',
         description: '公布获奖名单，邮寄奖品',
-        icon: 'tabler:presentation',
+        icon: 'tabler:trophy',
       },
     ]}
     image={{
@@ -170,8 +172,8 @@ const metadata = {
   <!-- 2) Hackathon Program Schedule with Content widget -->
   <Content
     isReversed
-    tagline="Hackathon Program"
-    title="Hackathon Events"
+    tagline="一边比赛，一边学习"
+    title="黑客松比赛期间举办的活动"
     items={[
       {
         title: '3月7日 20:00 魔法学院 - 魔法框架 MoFA Quick Start',
@@ -210,7 +212,7 @@ const metadata = {
     }}
   >
     <Fragment slot="content">
-      educational, hands-on, Interactive sessions, hacking, and learning.
+      魔法师们可以考虑利用这些活动更多地了解MoFA，并提出在比赛中遇到的问题，获得帮助。
     </Fragment>
 
     <Fragment slot="bg">
